@@ -10,6 +10,12 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+# delete cash data before ignore
+git rm --cached *.fbx
+git rm --cached *.anim
+git rm --cached *.mp3
+git rm --cached *.wav
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
@@ -77,8 +83,3 @@ crashlytics-build.properties
 *.mp3
 *.wav
 
-# delete cash data before ignore
-git rm --cached *.fbx
-git rm --cached *.anim
-git rm --cached *.mp3
-git rm --cached *.wav
