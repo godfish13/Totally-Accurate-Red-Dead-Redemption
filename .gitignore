@@ -76,3 +76,9 @@ crashlytics-build.properties
 *.anim
 *.mp3
 *.wav
+
+# delete cash data before ignore
+git rm --cached *.fbx
+git rm --cached *.anim
+git rm --cached *.mp3
+git rm --cached *.wav
