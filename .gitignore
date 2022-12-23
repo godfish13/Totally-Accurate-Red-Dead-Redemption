@@ -9,8 +9,10 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/2.Models/
+/9.Sounds/
 
-# delete cash data before ignore
+# delete cached data before ignore
 git rm --cached *.fbx
 git rm --cached *.anim
 git rm --cached *.mp3
